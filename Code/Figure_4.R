@@ -1,4 +1,4 @@
-setwd("/home/yi/Dropbox/DensityDependentFitnessVariance")
+
 load("Code/Num_ev.RData")
 
 pdf("Figures/Figure_4.pdf", height= 5, width=6.5)
