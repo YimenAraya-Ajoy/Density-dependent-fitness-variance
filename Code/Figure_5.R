@@ -1,5 +1,4 @@
 ###Relation between the mean phenotype and the r_0 and gamma
-setwd("/home/yi/Dropbox/DensityDependentFitnessVariance")
 load("Code/Num_ev.RData")
 
 pdf("Figures/Figure_5.pdf", height= 6.5, width=6.5)
