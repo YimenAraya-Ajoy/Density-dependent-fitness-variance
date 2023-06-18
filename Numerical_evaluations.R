@@ -3,8 +3,6 @@ library("cowplot")
 require(MASS)
 rm(list=ls())
 
-setwd("/home/yi/Dropbox/DensityDependentFitnessVariance")
-
 ###Simulation
 n.ind<-10000
 n.pops<-500
@@ -69,4 +67,4 @@ dI<-do.call(rbind.data.frame, dl)
 dI$ID<-as.numeric(as.factor(dI$ID))
 rownames(dI)<-1:nrow(dI)
 
-save.image("Code/Num_ev.RData")
+save.image("Num_ev.RData")
