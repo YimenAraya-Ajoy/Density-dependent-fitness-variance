@@ -1,5 +1,4 @@
 ##Variance in fitness as a function of population size
-setwd("/home/yi/Dropbox/DensityDependentFitnessVariance")
 load("Code/Num_ev.RData")
 
 z<-rnorm(n.ind, mean(z_b), sqrt(0.1))
