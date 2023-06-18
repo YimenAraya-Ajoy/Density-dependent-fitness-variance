@@ -3,8 +3,6 @@ library("cowplot")
 require(MASS)
 rm(list=ls())
 
-setwd("/home/yi/Dropbox/DensityDependentFitnessVariance")
-
 ###Simulation
 n.ind<-10000
 n.pops<-500
