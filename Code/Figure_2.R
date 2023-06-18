@@ -1,4 +1,4 @@
-setwd("/home/yi/Dropbox/DensityDependentFitnessVariance")
+
 load("Code/Num_ev.RData")
 
 z<-seq(2,5, by=0.005)
