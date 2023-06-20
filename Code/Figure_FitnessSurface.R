@@ -1,5 +1,4 @@
 require(lattice)
-setwd("/home/yi/Dropbox/DensityDependentFitnessVariance")
 load("Code/Num_ev.RData")
 pdf("Figures/FitnessSurface.pdf", height= 5, width=6.5)
 
